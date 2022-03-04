@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="سفر به آرتاویل؛ از پل معلق تا چشمه های آب گرم"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="16dp"
+                android:justificationMode="inter_word"
+                android:text="قصه از آنجایی شروع شد که ما به همراه گروهی از بانوان 28 تا 58 ساله تصمیم گرفتیم هر ماه، یک سفر دست جمعی را تجربه کنیم.   آغاز این برنامه در فروردین ماه 98 بود که ما به ترتیب در گشت یکروزه قزوین گردی، تور دو روزه گلاب گیری کاشان، گشت یکروزه کلاردشت و نمک آبرود و در نهایت گشت یکروزه دریاچه حلیمه جان رودبار شرکت کردیم.  تجربه ما در این سفرها نشان داد که پیداکردن گروهی که روند برگزاری تورهای آن کاملا مطابق میل و مطلوب استانداردهای ما باشد، سخت است. خصوصا اینکه اعضای جمع ما طیف سنی گسترده ای داشت و اکثر گروه های گردشگری موجود درشهرمان، مخصوص جوانان و با چاشنی کوهنوردی و ورزشی است. بنابراین امکانات رفاهی مثل اتوبوس مناسب یا محل اقامت راحت، اولویت برنامه هایشان نبود.  پس با رای اکثریت، برآن شدیم تا در اواخر تیرماه 98 تور سه روزه اردبیل، سرعین، مشگین شهر را خودمان برگزار کنیم.   شروع هر سفر، شروع یک داستان تازه است. از زمانیکه تصمیم به حرکت میگیری بخشهای گوناگون این داستان مثل تکه های پازل بهم چفت میشوند تا یک تصویر زیبا ساخته شود. هر داستان مقدمه ای دارد، که برای یک سفر، تحقیقات و شناسایی مقصد، خط اول آن می باشد.  در آغاز من و مادرم به عنوان سرگروه، شروع کردیم به جمع آوری اطلاعات درباره استان اردبیل، مکانهای دیدنی و جاذبه ها، محل اقامت، وسیله نقلیه و مسیر عبور. از آنجایی که دوران دانشجویی من در تبریز سپری شده بود، بارها از این جاده گذشته بودم و البته سفرهای خانوادگی نیز به استان اردبیل داشتیم. اما وقتی بخواهی 25 نفر را با خودت همراه کنی، حتما باید برنامه ریزی کامل و دقیقی داشته باشی.  پس در گام اول با یک لیدر جوان و متعهد که به تازگی کارت راهنمای گردشگری خود رو دریافت کرده بود اما تجربه برنامه های کوهنوردی و گردشگری زیادی را داشت، هماهنگ کردیم. برای عبور و مرور نیاز به یک ماشین وی آی پی 25 نفره دربستی با سیستم صوتی کارآمد و صندلیهای راحت و تمیز داشتیم. پس از جستجوی فراوان و شنیدن قیمتهای مختلف، بالاخره ماشین مناسب را پیدا کردیم و برای دو شب و سه روز دربستی از مبدا رودسر در گیلان به مبلغ چهار میلیون و ششصد هزار تومان قرارداد بستیم." />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.motion.widget.MotionLayout>
